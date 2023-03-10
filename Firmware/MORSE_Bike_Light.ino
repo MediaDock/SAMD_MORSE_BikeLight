@@ -75,6 +75,8 @@ void Break() {
 
 void loop() {
 
+  // Morse Code based on the following Table ---> https://de.wikipedia.org/wiki/Morsecode#Standard-Codetabelle
+  
   ToBeMorsed = String(ToBeMorsed + Space); 
   for (int i = 0; i < ToBeMorsed.length(); i++) {
     char c = ToBeMorsed.charAt(i);
